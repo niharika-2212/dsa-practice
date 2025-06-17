@@ -9,6 +9,13 @@ You have n coins and you want to build a staircase with these coins. The stairca
 
 Given the integer n, return the number of complete rows of the staircase you will build.
 
+## Output
+```
+Input: n = 5
+Output: 2
+Explanation: Because the 3rd row is incomplete, we return 2.
+```
+
 ## Approach 1
 - Mathematical approach
 - total coins used for perfect stairs is step*(step+1)/2
@@ -29,13 +36,6 @@ int arrangeCoins(int n) {
   int count = (val-1) / 2;
   return static_cast<int>(count); // converts all values to integers
 }
-```
-
-### Output
-```
-Input: n = 5
-Output: 2
-Explanation: Because the 3rd row is incomplete, we return 2.
 ```
 
 ## Approach 2 
