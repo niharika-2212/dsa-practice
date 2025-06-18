@@ -1,4 +1,4 @@
-# Problem: Binary Search
+# Problem: Two sum
 - Platform: Leetcode 1
 - Link: https://leetcode.com/problems/two-sum/description/
 - Difficulty: Easy
@@ -11,7 +11,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
-## Output
+## Example
 ```
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
@@ -22,7 +22,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 - naive approach
 - use nested loops to generate all pairs and compare to get target
 
-### time complexity
+### Time complexity
 - Time: `O(n^2)`
 - Space: `O(1)` (for iterative)
 
@@ -52,7 +52,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 - for each element in array calculate `val = target-element`
 - binary search in the array again to find val
 
-### time complexity
+### Time complexity
 - Time: `O(nlogn)`
 - Space: `O(1)`
 
@@ -101,7 +101,7 @@ bool twoSum(vector<int> &arr, int target){
   - if no, add element to set
 - if loop  completes, pair not found
 
-### time complexity
+### Time complexity
 - Time: `O(n)` (searching in hashset takes O(1) time)
 - Space: `O(n)`
 

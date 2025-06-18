@@ -1,4 +1,4 @@
-# Problem: Binary Search
+# Problem: Arranging coins
 - Platform: Leetcode 441
 - Link: https://leetcode.com/problems/arranging-coins/description
 - Difficulty: Easy
@@ -9,7 +9,7 @@ You have n coins and you want to build a staircase with these coins. The stairca
 
 Given the integer n, return the number of complete rows of the staircase you will build.
 
-## Output
+## Example
 ```
 Input: n = 5
 Output: 2
@@ -25,7 +25,7 @@ Explanation: Because the 3rd row is incomplete, we return 2.
 - `step = (-1+sqrt(1+8*n))/2`
 - since values can be big long long is used
 
-### time complexity
+### Time complexity
 - Time: `O(1)`
 - Space: `O(1)` 
 
@@ -43,7 +43,7 @@ int arrangeCoins(int n) {
 - we need to find `step*(step+1)/2<=n`
 - consider 1 - n array search using binary search
 
-### time complexity
+### Time complexity
 - Time: O(logn)
 - Space O(1)
 

@@ -9,7 +9,7 @@ Given an array of integers `nums` which is sorted in ascending order, and an int
 
 You must write an algorithm with `O(log n)` runtime complexity.
 
-## Output
+## Example
 ```
 Input: nums = [-1,0,3,5,9,12], target = 9
 Output: 4 // 9 exist at index 4
@@ -22,7 +22,7 @@ Output: 4 // 9 exist at index 4
 - if target greater than mid, search in second half
 - else search in first half
 
-### time complexity
+### Time complexity
 - Time: `O(logn)`
 - Space: `O(1)` (for iterative)
 
