@@ -10,7 +10,7 @@ This folder covers questions based on Sorting
 | 4 | Merge-sort | `Easy` | [View](Merge-sort.md) | 
 | 5 | Quick-sort | `Easy` | [View](Quick-sort.md) | 
 | 6 | Heap-sort | `Easy` |  | 
-| 7 | Valid-Anagram | `Easy` |  | 
+| 7 | Valid-Anagram | `Easy` | [View](Valid-Anagram.md) | 
 | 8 | Heap-sort | `Easy` |  | 
 | 9 | Heap-sort | `Easy` |  | 
 
