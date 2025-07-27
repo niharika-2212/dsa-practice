@@ -2,7 +2,7 @@
 
 - Platform: 
 - Link: 
-- Difficulty: 
+- Difficulty: Easy
 - Tags: 
 
 ## Problem Statement
